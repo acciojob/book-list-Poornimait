@@ -1,6 +1,6 @@
 //your JS code here. If required.
 function Add_Row(){
-	var table=document.getElementsByClassName("table-table-striped")[0].getElementsByTagName('tbody')[0];
+	var table=document.getElementsByClassName("table-striped")[0].getElementsByTagName('tbody')[0];
 	var newRow=table.insertRow();
 	var cell1=newRow.insertCell(0);
 	var cell2=newRow.insertCell(1);
